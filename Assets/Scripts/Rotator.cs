@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    [SerializeField] float duration;
+    [SerializeField] private float duration;
 
     private void Start()
     {

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TextChanger : MonoBehaviour
 {
     [SerializeField] private Text _text;
-    [SerializeField] float duration;
+    [SerializeField] private float duration;
 
     private void Start()
     {
