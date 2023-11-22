@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85c393cfa7c75a48b7c810efccf8f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!136 &396832726
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ddb6abda0b535b4e95517f0a24543fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!1 &648978718
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7539df5293f48b429d38d2e3331f5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 494685563}
-  duration: 3
+  _duration: 3
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ddb6abda0b535b4e95517f0a24543fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!114 &1387316806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7539df5293f48b429d38d2e3331f5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!114 &1387316807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85c393cfa7c75a48b7c810efccf8f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!65 &1387316808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f470b2bb80170d488d7d47ff2d1465d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  _duration: 3
 --- !u!135 &1974352181
 SphereCollider:
   m_ObjectHideFlags: 0

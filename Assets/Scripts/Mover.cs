@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField] private float duration;
+    [SerializeField] private float _duration;
 
     private void Start()
     {
@@ -13,6 +13,6 @@ public class Mover : MonoBehaviour
         Vector3 currentPosition = transform.position;
         Vector3 targetPosition = currentPosition;
         targetPosition.x *= -1;
-        transform.DOMove(targetPosition, duration).SetLoops(infinityLoopsParameter, LoopType.Yoyo).SetEase(Ease.Linear);
+        transform.DOMove(targetPosition, _duration).SetLoops(infinityLoopsParameter, LoopType.Yoyo).SetEase(Ease.Linear);
     }
 }

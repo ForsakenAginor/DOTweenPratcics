@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class ColorChanger : MonoBehaviour
 {
-    [SerializeField] private float duration;
+    [SerializeField] private float _duration;
 
     private void Start()
     {
         int infinityLoopsParameter = -1;
         var material = GetComponent<MeshRenderer>().material;
-        material.DOColor(Color.red, duration).SetLoops(infinityLoopsParameter, LoopType.Yoyo).SetEase(Ease.Linear);
+        material.DOColor(Color.red, _duration).SetLoops(infinityLoopsParameter, LoopType.Yoyo).SetEase(Ease.Linear);
     }
 }

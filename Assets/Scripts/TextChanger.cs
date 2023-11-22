@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class TextChanger : MonoBehaviour
 {
     [SerializeField] private Text _text;
-    [SerializeField] private float duration;
+    [SerializeField] private float _duration;
 
     private void Start()
     {
-        float doubleDuration = duration * 2;
-        _text.DOText("Hello World!", duration);
-        _text.DOText(" And Goodbye!", duration).SetRelative().SetDelay(duration);
-        _text.DOText("Apocalypse NOW!", duration, true, ScrambleMode.All).SetDelay(doubleDuration);
+        int stage = 2;
+        _text.DOText("Hello World!", _duration);
+        _text.DOText(" And Goodbye!", _duration).SetRelative().SetDelay(_duration);
+        _text.DOText("Apocalypse NOW!", _duration, true, ScrambleMode.All).SetDelay(_duration * stage);
     }
 }
